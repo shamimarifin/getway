@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GetWay | Learn more something</title>
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+     <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="header_area">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="" class="logo">
+                <ul id="sidebar">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Wedding</a></li>
+                    <li><a href="#">Fashion</a></li>
+                    <li><a href="#">Product & Advertise</a></li>
+                    <li><a href="#">Personal</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+
+            <div class="header_text">
+                <div class="img__left">
+                    <img src="images/hero.jpg" alt="">
+                </div>
+                <div class="text__right">
+                    <p>About us</p>
+                    <h2>Hi, I'm <span>Cheris!</span></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam repudiandae, tempora nostrum fugit maiores magnam ipsa, vitae animi omnis doloribus vero a reprehenderit perspiciatis rerum veniam nesciunt libero accusamus! Rem.</p>
+                </div>
+            </div>
+        </div>
+
+        
+    </header>
+
+    <div class="social_icons">
+        <ul>
+            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+        </ul>
+    </div>
+    
+
+
+    <!-- Service Section -->
+    <section id="service">
+        <div class="container">
+          
+            <div class="sub__title">
+                <h1>What I do</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum similique voluptatibus reiciendis deserunt iste perferendis perspiciatis repellendus qui dicta. Delectus.</p>
+            </div>
+
+                <div class="services_list">
+                    <div class="service">
+                        <img src="images/wedding.jpg" alt="">
+                        <h3>Wedding</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur praesentium corrupti nesciunt tempora iste voluptatibus!</p>
+                        <a href="#">Read More</a>
+                    </div>
+                    <div class="service">
+                        <img src="images/fashion.jpg" alt="">
+                        <h3>Fashion</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur praesentium corrupti nesciunt tempora iste voluptatibus!</p>
+                        <a href="#">Read More</a>
+                    </div>
+                    <div class="service">
+                        <img src="images/product.jpg" alt="">
+                        <h3>Product</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur praesentium corrupti nesciunt tempora iste voluptatibus!</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+
+
+    <!-- Client Section -->
+    <section id="client">
+        <div class="container">
+            <div class="sub__title">
+                <h1>Our Clients</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum similique voluptatibus reiciendis deserunt iste perferendis perspiciatis repellendus qui dicta. Delectus.</p>
+            </div>
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="images/client1.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/client2.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/client3.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/client4.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/client5.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <div class="full_img">
+            <img src="images/fashion1.jpg" alt="" class="fullImg">
+            <span onclick="closeImg()">X</span>
+        </div>
+        <div class="container">
+            <div class="sub__title">
+                <h1>Gallery Store</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum similique voluptatibus reiciendis deserunt iste perferendis perspiciatis repellendus qui dicta. Delectus.</p>
+            </div>
+            <div class="gallery_list">
+                <img src="images/fashion1.jpg" alt="" onclick="openImg(this.src)">
+                <img src="images/fashion2.jpg" alt="" onclick="openImg(this.src)">
+                <img src="images/fashion3.jpg" alt="" onclick="openImg(this.src)">
+                <img src="images/fashion4.jpg" alt="" onclick="openImg(this.src)">
+                <img src="images/wedding1.jpg" alt="" onclick="openImg(this.src)">
+                <img src="images/wedding2.jpg" alt="" onclick="openImg(this.src)">
+                <img src="images/wedding3.jpg" alt="" onclick="openImg(this.src)">
+                <img src="images/wedding4.jpg" alt="" onclick="openImg(this.src)">
+                <img src="images/product1.jpg" alt="" onclick="openImg(this.src)">
+                <img src="images/product2.jpg" alt="" onclick="openImg(this.src)">
+                <img src="images/product3.jpg" alt="" onclick="openImg(this.src)">
+                <img src="images/product4.jpg" alt="" onclick="openImg(this.src)">
+            </div>
+        </div>
+    </section>
+
+    <!-- Advertise -->
+    <section id="advertise">
+        <div class="container">
+            <div class="row">
+                <div class="advertise__content">
+                    <h2>Big Deal Advertise</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta deleniti similique ipsam ab rerum dolore quos, dicta provident tempore. Laudantium a dolor ab? Sapiente quod, possimus atque non necessitatibus maiores!</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+    <footer id="footer">
+        <div class="container">
+           <div class="footer_list">
+                <div>
+                    <h3>Contact Me</h3>
+                    <p><span><i class="fa-solid fa-paper-plane"></i></span> photograper@example.com</p>
+                    <p><span><i class="fa-solid fa-phone"></i></span> +880187565437</p>
+
+                    <div class="social_icons">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div>
+                   
+                        <h3>Location Here</h3>
+                        <p>Cox's Bazar Sadar, Bangladesh</p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d70656.09504109075!2d91.94834108107675!3d21.452676230718758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30adc7ea2ab928c3%3A0x3b539e0a68970810!2sCox&#39;s%20Bazar!5e0!3m2!1sen!2sbd!4v1700024947487!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                </div>
+                <div>
+               
+                        <h3>Subscribe</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, ex.</p>
+                        <input type="email" name="" id="" placeholder="Your email" autocomplete="on">
+                        <button type="submit">Submit</button>
+                    </div>
+                </div>
+           </div>
+        </div>
+
+        <div class="copyright_area">
+            <p>Copyright<span> ♡ </span>Powered By Photograper</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Script JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
